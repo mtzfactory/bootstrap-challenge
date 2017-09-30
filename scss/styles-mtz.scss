@@ -1,0 +1,136 @@
+$banner-background: '../img/site_showcase_bg.jpg';
+$green-color: rgb(0, 170, 153);
+$coal-color: rgb(27, 34, 41);
+
+/*
+ -- header --
+ */
+.mtz-navbar-no-margin-bottom { margin-bottom: 0px; }
+.mtz-navbar-brand-green { color: $green-color !important; }
+
+/*
+ -- capture life
+ */
+.banner {
+  background-image: url($banner-background);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  padding-top: 40px;
+  overflow: hidden;
+  color: white;
+
+  h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    span {
+      color: $green-color;
+    }
+  }
+
+  @media screen and (max-width: 1200px) { // width < large devices.
+    & h1 {
+      margin-top: 20px;
+    }
+
+    & .row.add-margin-on-md {
+      margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    & h1, & p {
+      text-align: center;
+    }
+
+    & .row.logos-app-stores img {  // para centrar los logos de las app-sotre.
+      margin: 16px auto;
+    }
+  }
+}
+
+/*
+ -- image roll
+ */
+.image-roll {
+  margin-top: 70px;
+
+  h1 {
+    color: $coal-color;
+  }
+
+  .thumbnail {
+    border: unset;
+    @media screen and (max-width: 1200px) {
+      & img { width: 100%; }
+    }
+  }
+
+  .caption {
+    padding: 9px 0;
+  }
+}
+
+/*
+ -- features
+ */
+.features {
+  background-color: $green-color;
+  color: white;
+  padding: 40px;
+
+  li {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  i { margin-right: 8px; }
+ }
+
+/*
+ --
+ */
+.subtitle {
+  background-color: $green-color;
+
+  h1 { margin-bottom: 20px; }
+}
+
+/*
+ --
+ */
+.about, .contact-us {
+  h1, form { margin-top: 70px; }
+
+  .thumbnail {
+    border: unset;
+    @media screen and (max-width: 1200px) {
+      & img { width: 100%; }
+    }
+    @media screen and (min-width: 992px) {
+      & { margin-top: 40px; }
+    }
+  }
+}
+
+ /*
+  -- footer
+  */
+footer {
+  background-color: $coal-color;
+  color: white;
+  padding: 20px 0;
+
+  li a { color: white; }
+
+  @media screen and (max-width: 768px) {
+    & ul, & p, & p.text-right {
+      text-align: center;
+    }
+  }
+}
