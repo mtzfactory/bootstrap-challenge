@@ -4,6 +4,12 @@
 .mtz-navbar-no-margin-bottom {
   margin-bottom: 0px; }
 
+.mtz-navbar-header-margin-left {
+  margin-left: 100px !important; }
+  @media screen and (max-width: 992px) {
+    .mtz-navbar-header-margin-left {
+      margin-left: unset !important; } }
+
 .mtz-navbar-brand-green {
   color: #00aa99 !important; }
 

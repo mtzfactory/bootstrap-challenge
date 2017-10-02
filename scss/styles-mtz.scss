@@ -6,6 +6,11 @@ $coal-color: rgb(27, 34, 41);
  -- header --
  */
 .mtz-navbar-no-margin-bottom { margin-bottom: 0px; }
+.mtz-navbar-header-margin-left { margin-left: 100px !important;
+  @media screen and (max-width: 992px) {
+    & { margin-left: unset !important; }
+  }
+}
 .mtz-navbar-brand-green { color: $green-color !important; }
 
 /*
