@@ -3,10 +3,10 @@
 
 ## Full Stack Web Development Bootcamp @Otoño2017
 
-### Bootstrap ~ Challenge de marcado HTML, Bootstrap y Sass.
+### Photoapp ~ Challenge de marcado HTML, con Bootstrap y Sass.
 
 Otro reto mas de  HTML5 y CSS3, esta vez usando Bootstrap y Sass:
 
- + [photoapp website](https://mtzfactory.github.io/bootstrap-challenge/)
+ + [photoapp website](https://mtzfactory.github.io/photoapp-bootstrap-sass/)
 
 Si te sientes aventurero puedes intentarlo, tienes los materiales necesarios en la carpeta ```mockups``` y ```img```.
